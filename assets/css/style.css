@@ -19,7 +19,9 @@ body{
 
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /*--------------  HEADER  -----------------*/
@@ -41,6 +43,7 @@ header .container{
     display: flex;
     width: 100%;
     justify-content: center;
+    margin: 40px 0px 40px 0;
 }
 
 
@@ -90,9 +93,37 @@ header .container{
 
 .hero-section{
     width: 50%;
-    margin: 0 20px 20px 0px;
     background-color: #EE82EE;
-    min-height: 80%;
+    height: 400px;
 }
 
-/*--------------  HERO  -----------------*/
+/*--------------  FRONT PAGE  -----------------*/
+
+.w-70{
+    background-color: #2090FF;
+    height: 500px;
+    width: 70%;
+}
+
+.w-30{
+    background-color: #FDC0CB;
+    height: 500px;
+    width: 30%;
+}
+
+.flex-w100{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-back{
+        background-color: #D3D3D3;
+}
+
+.green-container{
+    height: 600px;
+    background-color: #228B23;
+}
